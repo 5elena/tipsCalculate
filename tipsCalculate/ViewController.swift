@@ -25,9 +25,10 @@ class ViewController: UIViewController {
     //以下為計算按鈕
     @IBAction func calculate(_ sender: UIButton) {
         
-        //按下計算收鍵盤
+        //按下計算按鈕時收鍵盤
         money.resignFirstResponder()
         tip.resignFirstResponder()
+        man.resignFirstResponder()
         
         result.isHidden = false
         
